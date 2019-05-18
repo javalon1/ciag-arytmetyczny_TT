@@ -15,16 +15,13 @@ public class App
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("podaj ilość wyrazów ciągu do wygenerowania");
-        zmienna=scanner.nextInt();
-        ilosc = zmienna;
+        ilosc=scanner.nextInt();
 
         System.out.println("podaj pierwszy wyraz");
-        zmienna=scanner.nextInt();
-        pierwszyWyraz=zmienna;
+        pierwszyWyraz=scanner.nextInt();
 
         System.out.println("podaj różniecę \"r\"");
-        zmienna=scanner.nextInt();
-        roznica=zmienna;
+        roznica=scanner.nextInt();
 
         for (int i = 1; i<=ilosc; i++){
             System.out.println("a"+i+" = "+ (pierwszyWyraz+(roznica*(i-1))));
